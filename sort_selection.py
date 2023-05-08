@@ -15,6 +15,6 @@ for i in range(len(list)):
         if list[min_idx] > list[j]:
             min_idx = j
         # we swap the list[i] and smallest ele:
-        list[i], list[min_idx] = list[min_idx], list[i]
+    list[i], list[min_idx] = list[min_idx], list[i]
 for i in range(len(list)):
     print(list[i], end=" ")
